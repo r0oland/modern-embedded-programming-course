@@ -6,7 +6,7 @@
 /* Shape's attributes... */
 typedef struct {
     struct ShapeVtable const *vptr; /* virtual pointer */
-    
+
     int16_t x; /* x-coordinate of Shape's position */
     int16_t y; /* y-coordinate of Shape's position */
 } Shape;

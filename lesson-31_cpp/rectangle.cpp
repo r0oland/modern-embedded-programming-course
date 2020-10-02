@@ -11,11 +11,11 @@ Rectangle::Rectangle(int16_t x0, int16_t y0,
 }
 
 void Rectangle::draw() const {
-    //drawHorLine(x, y, width); 
+    //drawHorLine(x, y, width);
     //drawVerLine(x + width,
     //            y, height);
     //drawHorLine(x + width,
-    //            y + height, width); 
+    //            y + height, width);
     //drawVerLine(x, y, height);
 }
 

@@ -8,7 +8,7 @@ class Rectangle : public Shape { /* inherited Shape */
 private: /* Rectangle's attributes... */
     /* attributes specific to this class */
     uint16_t width;
-    uint16_t height;    
+    uint16_t height;
 
 public:  /* Rectangle's operations... */
     Rectangle(int16_t x0, int16_t y0,

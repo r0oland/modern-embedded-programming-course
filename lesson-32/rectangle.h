@@ -9,7 +9,7 @@ typedef struct {
 
     /* attributes specific to this class */
     uint16_t width;
-    uint16_t height;    
+    uint16_t height;
 } Rectangle;
 
 /* Rectangle's operations... */

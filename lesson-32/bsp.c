@@ -80,7 +80,7 @@ void BSP_ledBlueOff(void) {
 void BSP_ledBlueToggle(void) {
     //CRIT
     QF_CRIT_STAT_TYPE istat;
-    
+
     QF_CRIT_ENTRY(istat);
     GPIOF_AHB->DATA ^= LED_BLUE;
     QF_CRIT_EXIT(istat);
@@ -97,7 +97,7 @@ void BSP_ledGreenOff(void) {
 void BSP_ledGreenToggle(void) {
     //CRIT
     QF_CRIT_STAT_TYPE istat;
-    
+
     QF_CRIT_ENTRY(istat);
     GPIOF_AHB->DATA ^= LED_GREEN;
     QF_CRIT_EXIT(istat);
@@ -106,10 +106,10 @@ void BSP_ledGreenToggle(void) {
 void BSP_sendMorseCode(uint32_t bitmask) {
     uint32_t volatile delay_ctr;
     enum { DOT_DELAY = 150 };
-    
+
     //LOCK
     //QSchedStatus sstat;
-    
+
     //SEMA
     //QXSemaphore_wait(&Morse_sema,  /* pointer to semaphore to wait on */
     //                 QXTHREAD_NO_TIMEOUT); /* timeout for waiting */
@@ -120,7 +120,7 @@ void BSP_sendMorseCode(uint32_t bitmask) {
     //MUTEX
     QXMutex_lock(&Morse_mutex,
                  QXTHREAD_NO_TIMEOUT); /* timeout for waiting */
-    
+
     for (; bitmask != 0U; bitmask <<= 1) {
         if ((bitmask & (1U << 31)) != 0U) {
             BSP_ledGreenOn();
@@ -136,7 +136,7 @@ void BSP_sendMorseCode(uint32_t bitmask) {
     for (delay_ctr = 7*DOT_DELAY;
          delay_ctr != 0U; --delay_ctr) {
     }
-         
+
     //SEMA
     //QXSemaphore_signal(&Morse_sema);  /* pointer to semaphore to signal */
 

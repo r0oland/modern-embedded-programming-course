@@ -10,7 +10,7 @@ Circle::Circle(int16_t x0, int16_t y0,
 }
 
 void Circle::draw() const {
-    //drawEllipse(x, y, radius, radius); 
+    //drawEllipse(x, y, radius, radius);
 }
 
 uint32_t Circle::area() const {

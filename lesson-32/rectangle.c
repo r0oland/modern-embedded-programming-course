@@ -11,18 +11,18 @@ void Rectangle_ctor(Rectangle * const me,
 
     Shape_ctor(&me->super, x0, y0); /* base class ctor */
     me->super.vptr = &vtable;
-    
+
     /* init attributes added in this class */
     me->width = w0;
     me->height = h0;
 }
 
 void Rectangle_draw(Rectangle const * const me) {
-    //drawHorLine(me->super.x, me->super.y, me->width); 
+    //drawHorLine(me->super.x, me->super.y, me->width);
     //drawVerLine(me->super.x + me->width,
     //            me->super.y, me->height);
     //drawHorLine(me->super.x + me->width,
-    //            me->super.y + me->height, me->width); 
+    //            me->super.y + me->height, me->width);
     //drawVerLine(me->super.x, me->super.y, me->height);
 }
 

@@ -21,9 +21,9 @@ QXThread blinky1;
 void main_blinky1(QXThread * const me) {
     while (1) {
         BSP_sendMorseCode(0xA8EEE2A0U); /* "SOS" */
-        
+
         s1.moveBy(7, 8);
-        
+
         QXThread_delay(1U); /* block for 1 tick */
     }
 }
@@ -37,12 +37,12 @@ void main_blinky2(QXThread * const me) {
         QXSemaphore_wait(&SW1_sema,  /* pointer to semaphore to wait on */
                          QXTHREAD_NO_TIMEOUT); /* timeout for waiting */
 
- 
+
         for (i = 3*1500U; i != 0U; --i) {
             //BSP_ledBlueOn();
             //BSP_ledBlueOff();
             BSP_ledBlueToggle();
-            
+
             Q_ASSERT(s1.distanceFrom(&s1) == 0U);
         }
     }
@@ -64,11 +64,11 @@ int main() {
     //Shape const *ps1 = &s1; /* const pointer to s1 */
 
     Shape *ps = &r1; /* upcasting! */
-    
+
     r1.draw(); /* early binding */
     ps->draw(); /* late binding */
     a = ps->area();
-    
+
     Shape const *graph[] = {
         &c1,
         &r1,
@@ -76,7 +76,7 @@ int main() {
         (Shape *)0
     };
     drawGraph(graph);
-    
+
     s1.moveBy(7, 8);
     s2.moveBy(9, 10);
     ps3->moveBy(-1, -2);
@@ -85,9 +85,9 @@ int main() {
     r1.draw();
     a = r1.area();
     r1.moveBy(7, 8);
-    Q_ASSERT(r1.distanceFrom(&r1) == 0U); 
-   
-    Q_ASSERT(s1.distanceFrom(&s1) == 0U); 
+    Q_ASSERT(r1.distanceFrom(&r1) == 0U);
+
+    Q_ASSERT(s1.distanceFrom(&s1) == 0U);
     Q_ASSERT(s1.distanceFrom(&s2) ==
              s2.distanceFrom(&s1));
     Q_ASSERT(s1.distanceFrom(&s2) <=
@@ -95,7 +95,7 @@ int main() {
            + ps3->distanceFrom(&s2));
 
     delete ps3;
-    
+
     QF_init();
     BSP_init();
 

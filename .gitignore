@@ -39,6 +39,7 @@ metrics.dox
 qpc/
 CMSIS/
 test/
+test*/
 
 Debug/
 Release/

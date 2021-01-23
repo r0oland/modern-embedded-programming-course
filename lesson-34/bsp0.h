@@ -1,5 +1,5 @@
 /*****************************************************************************
-* BSP for EK-TM4C123GXL with uC/AO active-object framework
+* BSP for EK-TM4C123GXL with uC/OS-II RTOS
 *****************************************************************************/
 #ifndef BSP_H
 #define BSP_H
@@ -21,15 +21,8 @@ void BSP_ledGreenOff(void);
 
 void Q_onAssert(char const *module, int loc);
 
-/*---------------------------------------------------------------------------*/
-enum EventSignals {
-    BUTTON_PRESSED_SIG = USER_SIG,
-    BUTTON_RELEASED_SIG,
-    TIMEOUT_SIG,
-    /* ... */
-};
-
-/* Active objects... */
-extern Active *AO_BlinkyButton;
+/* global RTOS objects... */
+extern OS_EVENT *BSP_semaPress;   /* global semaphore handle */
+extern OS_EVENT *BSP_semaRelease; /* global semaphore handle */
 
 #endif /* BSP_H */

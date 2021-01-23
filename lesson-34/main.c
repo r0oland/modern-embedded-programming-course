@@ -1,4 +1,4 @@
-/* BlinkyButton/Button with uC/OS-II RTOS */
+/* BlinkyButton/Button with uC/AO active-object framework */
 #include "uc_ao.h"  /* uC/AO API */
 #include "bsp.h"
 #include <stdbool.h>
@@ -90,10 +90,3 @@ int main() {
     return 0; /* NOTE: the scheduler does NOT return */
 }
 
-/*******************************************************************************
-* NOTE1:
-* The call to uC/OS-II API OSTaskCreateExt() assumes that the pointer to the
-* top-of-stack (ptos) is at the end of the provided stack memory. This is
-* correct only for CPUs with downward-growing stack, but must be changed for
-* CPUs with upward-growing stack.
-*/

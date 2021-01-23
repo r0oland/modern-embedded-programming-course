@@ -1,7 +1,7 @@
 /*****************************************************************************
-* BSP for EK-TM4C123GXL with uC/AO active-object framework
+* BSP for EK-TM4C123GXL with uC/OS-II RTOS
 *****************************************************************************/
-#include "uc_ao.h"  /* uC/AO API */
+#include "ucos_ii.h"  /* uC/OS-II API, port and compile-time configuration */
 #include "bsp.h"
 
 #include <stdbool.h>             /* needed by the TI drivers */
@@ -31,8 +31,6 @@ void App_TimeTickHook(void) {
     uint32_t current;
     uint32_t tmp;
 
-    TimeEvent_tick(); /* process all uC/AO time events */
-
     /* Perform the debouncing of buttons. The algorithm for debouncing
     * adapted from the book "Embedded Systems Dictionary" by Jack Ganssle
     * and Michael Barr, page 71.
@@ -45,14 +43,12 @@ void App_TimeTickHook(void) {
     tmp ^= buttons.depressed;     /* changed debounced depressed */
     if ((tmp & BTN_SW1) != 0U) {  /* debounced SW1 state changed? */
         if ((buttons.depressed & BTN_SW1) != 0U) { /* is SW1 depressed? */
-            /* post the "button-pressed" event */
-            static Event const buttonPressedEvt = {BUTTON_PRESSED_SIG};
-            Active_post(AO_BlinkyButton, &buttonPressedEvt);
+            /* post the "button-pressed" semaphore */
+            OSSemPost(BSP_semaPress);
         }
         else { /* the button is released */
-            /* post the "button-released" event */
-            static Event const buttonReleasedEvt = {BUTTON_RELEASED_SIG};
-            Active_post(AO_BlinkyButton, &buttonReleasedEvt);
+            /* post the "button-release" semaphore */
+            OSSemPost(BSP_semaRelease);
         }
     }
 }

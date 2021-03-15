@@ -1,6 +1,6 @@
 /****************************************************************************
 * MInimal Real-time Operating System (MIROS)
-* version 0.23 (matching lesson 23)
+* version 0.24 (matching lesson 24)
 *
 * This software is a teaching aid to illustrate the concepts underlying
 * a Real-Time Operating System (RTOS). The main goal of the software is
@@ -29,9 +29,16 @@
 ****************************************************************************/
 #include <stdint.h>
 #include "miros.h"
+#include "qassert.h"
+
+Q_DEFINE_THIS_FILE
 
 OSThread * volatile OS_curr; /* pointer to the current thread */
 OSThread * volatile OS_next; /* pointer to the next thread to run */
+
+OSThread *OS_thread[32 + 1]; /* array of threads started so far */
+uint8_t OS_threadNum; /* number of threads started so far */
+uint8_t OS_currIdx; /* current thread index for round robin scheduling */
 
 void OS_init(void) {
     /* set the PendSV interrupt priority to the lowest level 0xFF */
@@ -40,10 +47,28 @@ void OS_init(void) {
 
 void OS_sched(void) {
     /* OS_next = ... */
-    OSThread const *next = OS_next; /* volatile to temporary */
-    if (next != OS_curr) {
+    ++OS_currIdx;
+    if (OS_currIdx == OS_threadNum) {
+        OS_currIdx = 0U;
+    }
+    OS_next = OS_thread[OS_currIdx];
+
+    /* trigger PendSV, if needed */
+    if (OS_next != OS_curr) {
         *(uint32_t volatile *)0xE000ED04 = (1U << 28);
     }
+}
+
+void OS_run(void) {
+    /* callback to configure and start interrupts */
+    OS_onStartup();
+
+    __asm volatile ("cpsid i");
+    OS_sched();
+    __asm volatile ("cpsie i");
+
+    /* the following code should never execute */
+    Q_ERROR();
 }
 
 void OSThread_start(
@@ -85,8 +110,15 @@ void OSThread_start(
     for (sp = sp - 1U; sp >= stk_limit; --sp) {
         *sp = 0xDEADBEEFU;
     }
+
+    Q_ASSERT(OS_threadNum < Q_DIM(OS_thread));
+
+    /* register the thread with the OS */
+    OS_thread[OS_threadNum] = me;
+    ++OS_threadNum;
 }
 
+__attribute__ ((naked, optimize("-fno-stack-protector")))
 void PendSV_Handler(void) {
 __asm volatile (
     /* __disable_irq(); */

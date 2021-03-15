@@ -341,6 +341,8 @@ void PWM1Fault_IRQHandler(void);
 #define __MPU_PRESENT           1   /*!< MPU present or not                 */
 #define __NVIC_PRIO_BITS        3   /*!< Number of Bits used for Prio Levels*/
 #define __Vendor_SysTickConfig  0   /*!< 1 if different SysTick config used */
+#define __FPU_PRESENT           1   /*!< FPU present or not                 */
+#define TARGET_IS_BLIZZARD_RA1  1   /*!< Class of device (for TI library)   */
 
 
 #include "core_cm4.h"          /* Cortex-M4 processor and core periphs      */

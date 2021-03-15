@@ -1,0 +1,1098 @@
+
+           Resource Standard Metrics (TM) for C, C++, C# and Java
+                   Version 7.75 - mSquaredTechnologies.com
+
+  License Type: Windows Single User License
+  Licensed To : Quantum Leaps, LLC
+  License No. : WS2975                          License Date: Dec 15, 2013
+  Build Date  : Sep  2 2009                         Run Date: Mar 05, 2021
+  (C)1996-2009 M Squared Technologies LLC
+  ________________________________________________________________________
+
+                           ~~ Function Metrics ~~
+                      ~~ Complexity Detail Analysis ~~
+                           ~~ Quality Analysis ~~
+
+  File: app_cfg.h
+  ________________________________________________________________________
+
+
+    Notice #1: Line 7: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 10: Line character length = 83.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 12: Line character length = 89.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 13: Line character length = 90.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 14: Line character length = 86.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 17: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 22: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 29: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 37: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 39: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 47: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 49: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 54: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 56: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 65: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 68: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 75: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 77: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 95: Line character length = 102.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 96: Line character length = 102.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 100: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 102: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 108: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 110: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 113: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 24       eLOC 24       lLOC 0        Comment 66       Lines      113
+  ________________________________________________________________________
+  End of File: app_cfg.h
+
+
+  File: bsp.h
+  ________________________________________________________________________
+
+                          ~~ Total File Summary ~~
+
+  LOC 22       eLOC 21       lLOC 12       Comment 7        Lines       35
+  ________________________________________________________________________
+  End of File: bsp.h
+
+
+  File: os_cfg.h
+  ________________________________________________________________________
+
+
+    Notice #1: Line 2: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 6: Line character length = 81.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 10: Line character length = 88.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 11: Line character length = 87.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 12: Line character length = 82.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 14: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 19: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 25: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 32: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 33: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 34: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 35: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 37: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 39: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 40: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 42: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 43: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 45: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 46: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 47: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 48: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 49: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 51: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 53: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 54: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 56: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 59: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 60: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 61: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 62: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 65: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 66: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 67: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 68: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 69: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 70: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 71: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 72: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 73: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 74: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 75: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 76: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 77: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 80: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 81: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 82: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 83: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 84: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 85: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 86: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 87: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 90: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 91: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 92: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 93: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 94: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 95: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 96: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 97: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 100: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 101: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 102: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 103: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 106: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 107: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 108: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 109: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 110: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 113: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 114: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 115: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 116: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 117: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 118: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 119: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 120: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 121: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 122: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 125: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 126: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 127: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 128: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 129: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 130: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 131: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 134: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 135: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 136: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 137: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 138: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 141: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 142: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 143: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 144: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 145: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 146: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 149: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 150: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 151: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+
+    Notice #1: Line 152: Line character length = 105.  This width
+           exceeds the standard terminal width of 80 characters.
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 82       eLOC 82       lLOC 0        Comment 116      Lines      154
+  ________________________________________________________________________
+  End of File: os_cfg.h
+
+
+  File: uc_ao.h
+  ________________________________________________________________________
+
+                          ~~ Total File Summary ~~
+
+  LOC 43       eLOC 41       lLOC 24       Comment 48       Lines       96
+  ________________________________________________________________________
+  End of File: uc_ao.h
+
+
+  File: bsp.c
+  ________________________________________________________________________
+
+
+    Notice #105: Line: 21 A symbolic constant using #define has been identified.
+
+    Notice #105: Line: 22 A symbolic constant using #define has been identified.
+
+  ------------------------ Function Begin Line: 25 -----------------------
+  Function: App_TimeTickHook
+  Parameters: (void)
+
+  Function: App_TimeTickHook
+    Cyclomatic Complexity Vg Detail
+      Function Base           : 1
+      Conditional if / else if: 2     
+  Complexity   Param 0       Return 1      Cyclo Vg 3       Total        4
+  LOC 25       eLOC 21       lLOC 16       Comment 18       Lines       34
+  ------------------------- Function End Line: 58 ------------------------
+
+  ------------------------ Function Begin Line: 60 -----------------------
+  Function: App_TaskIdleHook
+  Parameters: (void)
+
+  Function: App_TaskIdleHook
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 5        eLOC 4        lLOC 1        Comment 6        Lines        9
+  ------------------------- Function End Line: 68 ------------------------
+
+  ------------------------ Function Begin Line: 70 -----------------------
+  Function: App_TaskCreateHook
+  Parameters: (OS_TCB *ptcb)
+
+  Function: App_TaskCreateHook
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 1        eLOC 1        lLOC 1        Comment 1        Lines        1
+  ------------------------- Function End Line: 70 ------------------------
+
+  ------------------------ Function Begin Line: 71 -----------------------
+  Function: App_TaskDelHook
+  Parameters: (OS_TCB *ptcb)
+
+    Notice #51: Line 71, A function has been identified which does not
+           have a preceding comment.  Comments that detail the purpose,
+           algorithms, and parameter/return definitions are suggested.
+
+  Function: App_TaskDelHook
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 1        eLOC 1        lLOC 1        Comment 0        Lines        1
+  ------------------------- Function End Line: 71 ------------------------
+
+  ------------------------ Function Begin Line: 72 -----------------------
+  Function: App_TaskReturnHook
+  Parameters: (OS_TCB *ptcb)
+
+    Notice #51: Line 72, A function has been identified which does not
+           have a preceding comment.  Comments that detail the purpose,
+           algorithms, and parameter/return definitions are suggested.
+
+  Function: App_TaskReturnHook
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 1        eLOC 1        lLOC 1        Comment 0        Lines        1
+  ------------------------- Function End Line: 72 ------------------------
+
+  ------------------------ Function Begin Line: 73 -----------------------
+  Function: App_TaskStatHook
+  Parameters: (void)
+
+    Notice #51: Line 73, A function has been identified which does not
+           have a preceding comment.  Comments that detail the purpose,
+           algorithms, and parameter/return definitions are suggested.
+
+    Notice #48: Line 73: The number of logical lines of code or statements
+           0 is <= to the specified minimum of 0.  This could
+           indicate a null function with no operational purpose.
+
+  Function: App_TaskStatHook
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 1        eLOC 1        lLOC 0        Comment 0        Lines        1
+  ------------------------- Function End Line: 73 ------------------------
+
+  ------------------------ Function Begin Line: 74 -----------------------
+  Function: App_TaskSwHook
+  Parameters: (void)
+
+    Notice #51: Line 74, A function has been identified which does not
+           have a preceding comment.  Comments that detail the purpose,
+           algorithms, and parameter/return definitions are suggested.
+
+    Notice #48: Line 74: The number of logical lines of code or statements
+           0 is <= to the specified minimum of 0.  This could
+           indicate a null function with no operational purpose.
+
+  Function: App_TaskSwHook
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 1        eLOC 1        lLOC 0        Comment 0        Lines        1
+  ------------------------- Function End Line: 74 ------------------------
+
+  ------------------------ Function Begin Line: 75 -----------------------
+  Function: App_TCBInitHook
+  Parameters: (OS_TCB *ptcb)
+
+    Notice #51: Line 75, A function has been identified which does not
+           have a preceding comment.  Comments that detail the purpose,
+           algorithms, and parameter/return definitions are suggested.
+
+  Function: App_TCBInitHook
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 1        eLOC 1        lLOC 1        Comment 0        Lines        1
+  ------------------------- Function End Line: 75 ------------------------
+
+  ------------------------ Function Begin Line: 79 -----------------------
+  Function: BSP_init
+  Parameters: (void)
+
+  Function: BSP_init
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 10       eLOC 9        lLOC 8        Comment 10       Lines       16
+  ------------------------- Function End Line: 94 ------------------------
+
+  ------------------------ Function Begin Line: 96 -----------------------
+  Function: BSP_start
+  Parameters: (void)
+
+  Function: BSP_start
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 4        eLOC 3        lLOC 2        Comment 8        Lines       13
+  ------------------------ Function End Line: 108 ------------------------
+
+  ----------------------- Function Begin Line: 111 -----------------------
+  Function: BSP_ledRedOn
+  Parameters: (void)
+
+  Function: BSP_ledRedOn
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+  ------------------------ Function End Line: 113 ------------------------
+
+  ----------------------- Function Begin Line: 116 -----------------------
+  Function: BSP_ledRedOff
+  Parameters: (void)
+
+  Function: BSP_ledRedOff
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+  ------------------------ Function End Line: 118 ------------------------
+
+  ----------------------- Function Begin Line: 120 -----------------------
+  Function: BSP_ledBlueOn
+  Parameters: (void)
+
+  Function: BSP_ledBlueOn
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+  ------------------------ Function End Line: 122 ------------------------
+
+  ----------------------- Function Begin Line: 125 -----------------------
+  Function: BSP_ledBlueOff
+  Parameters: (void)
+
+  Function: BSP_ledBlueOff
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+  ------------------------ Function End Line: 127 ------------------------
+
+  ----------------------- Function Begin Line: 130 -----------------------
+  Function: BSP_ledGreenOn
+  Parameters: (void)
+
+  Function: BSP_ledGreenOn
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+  ------------------------ Function End Line: 132 ------------------------
+
+  ----------------------- Function Begin Line: 135 -----------------------
+  Function: BSP_ledGreenOff
+  Parameters: (void)
+
+  Function: BSP_ledGreenOff
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+  ------------------------ Function End Line: 137 ------------------------
+
+  ----------------------- Function Begin Line: 141 -----------------------
+  Function: Q_onAssert
+  Parameters: (char const *module, int loc)
+
+  Function: Q_onAssert
+    Cyclomatic Complexity Vg Detail
+      Function Base           : 1
+      Loops while / do        : 1     
+  Complexity   Param 2       Return 1      Cyclo Vg 2       Total        5
+  LOC 10       eLOC 8        lLOC 4        Comment 9        Lines       11
+  ------------------------ Function End Line: 151 ------------------------
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 90       eLOC 75       lLOC 41       Comment 71       Lines      151
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:         17
+  Total Function LOC.....:         78  Total Function Pts LOC :        0.7
+  Total Function eLOC....:         63  Total Function Pts eLOC:        0.6
+  Total Function lLOC....:         41  Total Function Pts lLOC:        0.3
+  Total Function Params .:          6  Total Function Return .:         17
+  Total Cyclo Complexity :         20  Total Function Complex.:         43
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         25  Average Function LOC ..:       4.59
+  Max Function eLOC .....:         21  Average Function eLOC .:       3.71
+  Max Function lLOC .....:         16  Average Function lLOC .:       2.41
+         ------     -----     -----     ------     ------     -----       
+  Max Function Parameters:          2  Avg Function Parameters:       0.35
+  Max Function Returns ..:          1  Avg Function Returns ..:       1.00
+  Max Interface Complex. :          3  Avg Interface Complex. :       1.35
+  Max Cyclomatic Complex.:          3  Avg Cyclomatic Complex.:       1.18
+  Max Total Complexity ..:          5  Avg Total Complexity ..:       2.53
+  ________________________________________________________________________
+  End of File: bsp.c
+
+
+  File: main.c
+  ________________________________________________________________________
+
+
+    Notice #35: Line 17: Public data has been identified with a class
+           specification.  This design breaks object encapsulation
+           allowing free access from other objects and functions.
+
+    Notice #35: Line 19: Public data has been identified with a class
+           specification.  This design breaks object encapsulation
+           allowing free access from other objects and functions.
+
+    Notice #35: Line 20: Public data has been identified with a class
+           specification.  This design breaks object encapsulation
+           allowing free access from other objects and functions.
+
+  ------------------------ Function Begin Line: 23 -----------------------
+  Function: TimeBomb_dispatch
+  Parameters: (TimeBomb * const me, Event const * const e)
+
+    Notice #51: Line 23, A function has been identified which does not
+           have a preceding comment.  Comments that detail the purpose,
+           algorithms, and parameter/return definitions are suggested.
+
+    Notice #13: Line 82: All 'switch' statements do not have a matching 'default'
+           statements.  This could cause unexpected behavior if the
+           'switch' statement is not met by a 'case' statement.
+
+  Function: TimeBomb_dispatch
+    Cyclomatic Complexity Vg Detail
+      Function Base           : 1
+      Selection case          : 7     
+      Conditional if / else if: 2     
+  Complexity   Param 2       Return 1      Cyclo Vg 10      Total       13
+  LOC 59       eLOC 43       lLOC 27       Comment 1        Lines       60
+  ------------------------- Function End Line: 82 ------------------------
+
+  ------------------------ Function Begin Line: 84 -----------------------
+  Function: TimeBomb_ctor
+  Parameters: (TimeBomb * const me)
+
+    Notice #51: Line 84, A function has been identified which does not
+           have a preceding comment.  Comments that detail the purpose,
+           algorithms, and parameter/return definitions are suggested.
+
+  Function: TimeBomb_ctor
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 4        eLOC 3        lLOC 2        Comment 0        Lines        4
+  ------------------------- Function End Line: 87 ------------------------
+
+  ------------------------ Function Begin Line: 95 -----------------------
+  Function: main
+  Parameters: ()
+
+    Notice #49: Line 115: The function has no input parameters or void.
+           Suggest using explicit parameters for interface clarity.
+
+  Function: main
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 16       eLOC 15       lLOC 8        Comment 7        Lines       21
+  ------------------------ Function End Line: 115 ------------------------
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 98       eLOC 80       lLOC 47       Comment 23       Lines      123
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         79  Total Function Pts LOC :        0.8
+  Total Function eLOC....:         61  Total Function Pts eLOC:        0.6
+  Total Function lLOC....:         37  Total Function Pts lLOC:        0.4
+  Total Function Params .:          3  Total Function Return .:          3
+  Total Cyclo Complexity :         12  Total Function Complex.:         18
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         59  Average Function LOC ..:      26.33
+  Max Function eLOC .....:         43  Average Function eLOC .:      20.33
+  Max Function lLOC .....:         27  Average Function lLOC .:      12.33
+         ------     -----     -----     ------     ------     -----       
+  Max Function Parameters:          2  Avg Function Parameters:       1.00
+  Max Function Returns ..:          1  Avg Function Returns ..:       1.00
+  Max Interface Complex. :          3  Avg Interface Complex. :       2.00
+  Max Cyclomatic Complex.:         10  Avg Cyclomatic Complex.:       4.00
+  Max Total Complexity ..:         13  Avg Total Complexity ..:       6.00
+  ________________________________________________________________________
+  End of File: main.c
+
+
+  File: uc_ao.c
+  ________________________________________________________________________
+
+
+  ------------------------ Function Begin Line: 25 -----------------------
+  Function: Active_ctor
+  Parameters: (Active * const me, DispatchHandler dispatch)
+
+  Function: Active_ctor
+  Complexity   Param 2       Return 1      Cyclo Vg 1       Total        4
+  LOC 3        eLOC 2        lLOC 1        Comment 2        Lines        3
+  ------------------------- Function End Line: 27 ------------------------
+
+  ------------------------ Function Begin Line: 31 -----------------------
+  Function: Active_eventLoop
+  Parameters: (void *pdata)
+
+  Function: Active_eventLoop
+    Cyclomatic Complexity Vg Detail
+      Function Base           : 1
+      Loops while / do        : 1     
+  Complexity   Param 1       Return 1      Cyclo Vg 2       Total        4
+  LOC 12       eLOC 10       lLOC 8        Comment 11       Lines       20
+  ------------------------- Function End Line: 50 ------------------------
+
+    Notice #109: Line: 55 Double pointer indirection identified.
+
+  ------------------------ Function Begin Line: 60 -----------------------
+  Function: Active_start
+  Parameters: (Active * const me, uint8_t prio, Event **queueSto, uint32_t
+               queueLen, void *stackSto, uint32_t stackSize, uint16_t opt)
+
+    Notice #109: Line: 69 Double pointer indirection identified.
+
+    Notice #29: Line 88: The number of function input parameters,
+           7 exceeds the specified limit of 6.
+
+  Function: Active_start
+    Cyclomatic Complexity Vg Detail
+      Function Base           : 1
+      Logical and ( && )      : 2     
+  Complexity   Param 7       Return 1      Cyclo Vg 3       Total       11
+  LOC 25       eLOC 23       lLOC 9        Comment 17       Lines       29
+  ------------------------- Function End Line: 88 ------------------------
+
+  ------------------------ Function Begin Line: 91 -----------------------
+  Function: Active_post
+  Parameters: (Active * const me, Event const * const e)
+
+  Function: Active_post
+  Complexity   Param 2       Return 1      Cyclo Vg 1       Total        4
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+  ------------------------- Function End Line: 93 ------------------------
+
+  ----------------------- Function Begin Line: 102 -----------------------
+  Function: TimeEvent_ctor
+  Parameters: (TimeEvent * const me, Signal sig, Active *act)
+
+  Function: TimeEvent_ctor
+  Complexity   Param 3       Return 1      Cyclo Vg 1       Total        5
+  LOC 14       eLOC 13       lLOC 10       Comment 5        Lines       20
+  ------------------------ Function End Line: 121 ------------------------
+
+  ----------------------- Function Begin Line: 124 -----------------------
+  Function: TimeEvent_arm
+  Parameters: (TimeEvent * const me, uint32_t timeout, uint32_t interval)
+
+  Function: TimeEvent_arm
+  Complexity   Param 3       Return 1      Cyclo Vg 1       Total        5
+  LOC 9        eLOC 8        lLOC 5        Comment 1        Lines        9
+  ------------------------ Function End Line: 132 ------------------------
+
+  ----------------------- Function Begin Line: 135 -----------------------
+  Function: TimeEvent_disarm
+  Parameters: (TimeEvent * const me)
+
+  Function: TimeEvent_disarm
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 8        eLOC 7        lLOC 4        Comment 1        Lines        8
+  ------------------------ Function End Line: 142 ------------------------
+
+  ----------------------- Function Begin Line: 145 -----------------------
+  Function: TimeEvent_tick
+  Parameters: (void)
+
+  Function: TimeEvent_tick
+    Cyclomatic Complexity Vg Detail
+      Function Base           : 1
+      Loops for / foreach     : 1     
+      Conditional if / else if: 2     
+  Complexity   Param 0       Return 1      Cyclo Vg 4       Total        5
+  LOC 13       eLOC 9        lLOC 6        Comment 5        Lines       13
+  ------------------------ Function End Line: 157 ------------------------
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 98       eLOC 85       lLOC 47       Comment 68       Lines      158
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          8
+  Total Function LOC.....:         87  Total Function Pts LOC :        0.8
+  Total Function eLOC....:         74  Total Function Pts eLOC:        0.7
+  Total Function lLOC....:         44  Total Function Pts lLOC:        0.4
+  Total Function Params .:         19  Total Function Return .:          8
+  Total Cyclo Complexity :         14  Total Function Complex.:         41
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         25  Average Function LOC ..:      10.88
+  Max Function eLOC .....:         23  Average Function eLOC .:       9.25
+  Max Function lLOC .....:         10  Average Function lLOC .:       5.50
+         ------     -----     -----     ------     ------     -----       
+  Max Function Parameters:          7  Avg Function Parameters:       2.38
+  Max Function Returns ..:          1  Avg Function Returns ..:       1.00
+  Max Interface Complex. :          8  Avg Interface Complex. :       3.38
+  Max Cyclomatic Complex.:          4  Avg Cyclomatic Complex.:       1.75
+  Max Total Complexity ..:         11  Avg Total Complexity ..:       5.13
+  ________________________________________________________________________
+  End of File: uc_ao.c
+
+
+  ------------------------------------------------------------------------
+
+                     ~~ Project Analysis For 7 Files ~~
+
+  ------------------------------------------------------------------------
+
+                         ~~ Total Project Summary ~~
+
+  LOC 457      eLOC 408      lLOC 171      Comment 399      Lines      830
+  Average per File, metric/7 files
+  LOC 65       eLOC 58       lLOC 24       Comment 57       Lines      118
+
+  ------------------------------------------------------------------------
+
+                      ~~ Project Functional Metrics ~~
+
+  Function: App_TimeTickHook
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 3       Total        4
+  LOC 25       eLOC 21       lLOC 16       Comment 18       Lines       34
+
+  Function: App_TaskIdleHook
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 5        eLOC 4        lLOC 1        Comment 6        Lines        9
+
+  Function: App_TaskCreateHook
+  Parameters: (OS_TCB *ptcb)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 1        eLOC 1        lLOC 1        Comment 1        Lines        1
+
+  Function: App_TaskDelHook
+  Parameters: (OS_TCB *ptcb)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 1        eLOC 1        lLOC 1        Comment 0        Lines        1
+
+  Function: App_TaskReturnHook
+  Parameters: (OS_TCB *ptcb)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 1        eLOC 1        lLOC 1        Comment 0        Lines        1
+
+  Function: App_TaskStatHook
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 1        eLOC 1        lLOC 0        Comment 0        Lines        1
+
+  Function: App_TaskSwHook
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 1        eLOC 1        lLOC 0        Comment 0        Lines        1
+
+  Function: App_TCBInitHook
+  Parameters: (OS_TCB *ptcb)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 1        eLOC 1        lLOC 1        Comment 0        Lines        1
+
+  Function: BSP_init
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 10       eLOC 9        lLOC 8        Comment 10       Lines       16
+
+  Function: BSP_start
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 4        eLOC 3        lLOC 2        Comment 8        Lines       13
+
+  Function: BSP_ledRedOn
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+
+  Function: BSP_ledRedOff
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+
+  Function: BSP_ledBlueOn
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+
+  Function: BSP_ledBlueOff
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+
+  Function: BSP_ledGreenOn
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+
+  Function: BSP_ledGreenOff
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+
+  Function: Q_onAssert
+  Parameters: (char const *module, int loc)
+  Complexity   Param 2       Return 1      Cyclo Vg 2       Total        5
+  LOC 10       eLOC 8        lLOC 4        Comment 9        Lines       11
+
+  Function: TimeBomb_dispatch
+  Parameters: (TimeBomb * const me, Event const * const e)
+  Complexity   Param 2       Return 1      Cyclo Vg 10      Total       13
+  LOC 59       eLOC 43       lLOC 27       Comment 1        Lines       60
+
+  Function: TimeBomb_ctor
+  Parameters: (TimeBomb * const me)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 4        eLOC 3        lLOC 2        Comment 0        Lines        4
+
+  Function: main
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 16       eLOC 15       lLOC 8        Comment 7        Lines       21
+
+  Function: Active_ctor
+  Parameters: (Active * const me, DispatchHandler dispatch)
+  Complexity   Param 2       Return 1      Cyclo Vg 1       Total        4
+  LOC 3        eLOC 2        lLOC 1        Comment 2        Lines        3
+
+  Function: Active_eventLoop
+  Parameters: (void *pdata)
+  Complexity   Param 1       Return 1      Cyclo Vg 2       Total        4
+  LOC 12       eLOC 10       lLOC 8        Comment 11       Lines       20
+
+  Function: Active_start
+  Parameters: (Active * const me, uint8_t prio, Event **queueSto, uint32_t
+               queueLen, void *stackSto, uint32_t stackSize, uint16_t opt)
+  Complexity   Param 7       Return 1      Cyclo Vg 3       Total       11
+  LOC 25       eLOC 23       lLOC 9        Comment 17       Lines       29
+
+  Function: Active_post
+  Parameters: (Active * const me, Event const * const e)
+  Complexity   Param 2       Return 1      Cyclo Vg 1       Total        4
+  LOC 3        eLOC 2        lLOC 1        Comment 1        Lines        3
+
+  Function: TimeEvent_ctor
+  Parameters: (TimeEvent * const me, Signal sig, Active *act)
+  Complexity   Param 3       Return 1      Cyclo Vg 1       Total        5
+  LOC 14       eLOC 13       lLOC 10       Comment 5        Lines       20
+
+  Function: TimeEvent_arm
+  Parameters: (TimeEvent * const me, uint32_t timeout, uint32_t interval)
+  Complexity   Param 3       Return 1      Cyclo Vg 1       Total        5
+  LOC 9        eLOC 8        lLOC 5        Comment 1        Lines        9
+
+  Function: TimeEvent_disarm
+  Parameters: (TimeEvent * const me)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 8        eLOC 7        lLOC 4        Comment 1        Lines        8
+
+  Function: TimeEvent_tick
+  Parameters: (void)
+  Complexity   Param 0       Return 1      Cyclo Vg 4       Total        5
+  LOC 13       eLOC 9        lLOC 6        Comment 5        Lines       13
+
+  Total: Functions  
+  LOC 244      eLOC 198      lLOC 122      InCmp 56       CycloCmp      46
+  Function Points         FP(LOC) 1.9     FP(eLOC) 1.5    FP(lLOC)     1.0
+
+  ------------------------------------------------------------------------
+
+                      ~~ Project Functional Analysis ~~
+
+  Total Functions .......:         28  Total Physical Lines ..:        297
+  Total LOC .............:        244  Total Function Pts LOC :        1.9
+  Total eLOC ............:        198  Total Function Pts eLOC:        1.5
+  Total lLOC.............:        122  Total Function Pts lLOC:        1.0
+  Total Cyclomatic Comp. :         46  Total Interface Comp. .:         56
+  Total Parameters ......:         28  Total Return Points ...:         28
+  Total Comment Lines ...:        109  Total Blank Lines .....:         20
+         ------     -----     -----     ------     ------     -----       
+  Avg Physical Lines ....:      10.61
+  Avg LOC ...............:       8.71  Avg eLOC ..............:       7.07
+  Avg lLOC ..............:       4.36  Avg Cyclomatic Comp. ..:       1.64
+  Avg Interface Comp. ...:       2.00  Avg Parameters ........:       1.00
+  Avg Return Points .....:       1.00  Avg Comment Lines .....:       3.89
+         ------     -----     -----     ------     ------     -----       
+  Max LOC ...............:         59
+  Max eLOC ..............:         43  Max lLOC ..............:         27
+  Max Cyclomatic Comp. ..:         10  Max Interface Comp. ...:          8
+  Max Parameters ........:          7  Max Return Points .....:          1
+  Max Comment Lines .....:         18  Max Total Lines .......:         60
+         ------     -----     -----     ------     ------     -----       
+  Min LOC ...............:          1
+  Min eLOC ..............:          1  Min lLOC ..............:          0
+  Min Cyclomatic Comp. ..:          1  Min Interface Comp. ...:          1
+  Min Parameters ........:          0  Min Return Points .....:          1
+  Min Comment Lines .....:          0  Min Total Lines .......:          1
+
+  ------------------------------------------------------------------------
+
+                        ~~ Project Quality Profile ~~
+
+  Type  Count Percent  Quality Notice
+  ________________________________________________________________________
+
+  1       125   86.81  Physical line length > 80 characters
+  13        1    0.69  'switch' statement does not have a 'default'
+  29        1    0.69  Number of function parameters > 6
+  35        3    2.08  Class specification contains public data
+  48        2    1.39  Function lLOC <= 0, non-operational function
+  49        1    0.69  Function appears to have null or blank parameters
+  51        7    4.86  No comment preceding a function block
+  105       2    1.39  A symbolic constant using #define
+  109       2    1.39  Double pointer indirection identified
+  ________________________________________________________________________
+
+          144  100.00  Total Quality Notices
+
+                        ~~ Quality Notice Density ~~
+
+  Basis: 1000 (K)
+
+  Quality Notices/K LOC   =      315.1 ( 31.51%)
+  Quality Notices/K eLOC  =      352.9 ( 35.29%)
+  Quality Notices/K lLOC  =      842.1 ( 84.21%)
+
+  ------------------------------------------------------------------------
+
+                             ~~ File Summary ~~
+
+  C Source Files *.c ....:          3  C/C++ Include Files *.h:          4
+  C++ Source Files *.c* .:          0  C++ Include Files *.h* :          0
+  C# Source Files *.cs ..:          0  Java Source File *.jav*:          0
+  Other File Count ......:          0  Total File Count ......:          7
+  ________________________________________________________________________
+

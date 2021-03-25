@@ -1,5 +1,5 @@
 /****************************************************************************
-* MInimal Real-time Operating System (MIROS)
+* MInimal Real-time Operating System (MIROS) for IAR toolchain
 * version 0.23 (matching lesson 23)
 *
 * This software is a teaching aid to illustrate the concepts underlying
@@ -87,8 +87,10 @@ void OSThread_start(
     }
 }
 
+__stackless
 void PendSV_Handler(void) {
 __asm volatile (
+
     /* __disable_irq(); */
     "  CPSID         I                 \n"
 
@@ -101,30 +103,30 @@ __asm volatile (
     "  PUSH          {r4-r11}          \n"
 
     /*     OS_curr->sp = sp; */
-    "  LDR           r1,=OS_curr        \n"
-    "  LDR           r1,[r1,#0x00]      \n"
-    "  STR           sp,[r1,#0x00]      \n"
+    "  LDR           r1,=OS_curr       \n"
+    "  LDR           r1,[r1,#0x00]     \n"
+    "  STR           sp,[r1,#0x00]     \n"
     /* } */
 
-    "PendSV_restore:                    \n"
+    "PendSV_restore:                   \n"
     /* sp = OS_next->sp; */
-    "  LDR           r1,=OS_next        \n"
-    "  LDR           r1,[r1,#0x00]      \n"
-    "  LDR           sp,[r1,#0x00]      \n"
+    "  LDR           r1,=OS_next       \n"
+    "  LDR           r1,[r1,#0x00]     \n"
+    "  LDR           sp,[r1,#0x00]     \n"
 
     /* OS_curr = OS_next; */
-    "  LDR           r1,=OS_next        \n"
-    "  LDR           r1,[r1,#0x00]      \n"
-    "  LDR           r2,=OS_curr        \n"
-    "  STR           r1,[r2,#0x00]      \n"
+    "  LDR           r1,=OS_next       \n"
+    "  LDR           r1,[r1,#0x00]     \n"
+    "  LDR           r2,=OS_curr       \n"
+    "  STR           r1,[r2,#0x00]     \n"
 
     /* pop registers r4-r11 */
-    "  POP           {r4-r11}           \n"
+    "  POP           {r4-r11}          \n"
 
     /* __enable_irq(); */
-    "  CPSIE         I                  \n"
+    "  CPSIE         I                 \n"
 
     /* return to the next thread */
-    "  BX            lr                 \n"
+    "  BX            lr                \n"
     );
 }

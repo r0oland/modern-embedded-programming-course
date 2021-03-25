@@ -1,0 +1,15 @@
+"C:\tools\IAR\ARM_KS_8.50\arm\bin\armproc.dll" 
+
+"C:\tools\IAR\ARM_KS_8.50\arm\bin\armlmiftdi.dll" 
+
+"C:\videos\modern-embedded-programming-course\lesson-22\Debug\Exe\c.out" 
+
+--plugin="C:\tools\IAR\ARM_KS_8.50\arm\bin\armbat.dll" 
+
+--device_macro="C:\tools\IAR\ARM_KS_8.50\arm\config\debugger\TexasInstruments\TM4C123.dmac" 
+
+--flash_loader="C:\tools\IAR\ARM_KS_8.50\arm\config\flashloader\TexasInstruments\FlashTC4_H6_o.board" 
+
+
+
+

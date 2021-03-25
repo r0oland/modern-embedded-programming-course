@@ -65,7 +65,7 @@ ASM_SRCS :=
 # C source files
 C_SRCS := \
 	bsp.c \
-	miros.c \
+	miros_gnu.c \
 	main.c \
 	system_TM4C123GH6PM.c \
 	startup_TM4C123GH6PM.c

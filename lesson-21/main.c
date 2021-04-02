@@ -27,23 +27,22 @@ int main() {
             ON_STATE
         } state = INITIAL;
         static uint32_t start;
-        uint32_t now = BSP_tickCtr(); /* buffered value of the tickCtr */
         switch (state) {
             case INITIAL:
-                start = now;
+                start = BSP_tickCtr();
                 state = OFF_STATE; /* initial transition */
                 break;
             case OFF_STATE:
-                if ((now - start) > BSP_TICKS_PER_SEC * 3U / 4U) {
+                if ((BSP_tickCtr() - start) > BSP_TICKS_PER_SEC * 3U / 4U) {
                     BSP_ledGreenOn();
-                    start = now;
+                    start = BSP_tickCtr();
                     state = ON_STATE; /* state transition */
                 }
                 break;
             case ON_STATE:
-                if ((now - start) > BSP_TICKS_PER_SEC / 4U) {
+                if ((BSP_tickCtr() - start) > BSP_TICKS_PER_SEC / 4U) {
                     BSP_ledGreenOff();
-                    start = now;
+                    start = BSP_tickCtr();
                     state = OFF_STATE; /* state transition */
                 }
                 break;

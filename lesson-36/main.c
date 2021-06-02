@@ -15,7 +15,7 @@ typedef struct {
         PAUSE_STATE,
         BOOM_STATE
     } state; /* the "state variable" */
-    
+
     TimeEvent te;
     uint32_t blink_ctr;
 } TimeBomb;

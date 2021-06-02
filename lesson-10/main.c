@@ -22,10 +22,12 @@ int main() {
     GPIO_PORTF_AHB_DIR_R |= (LED_RED | LED_BLUE | LED_GREEN);
     GPIO_PORTF_AHB_DEN_R |= (LED_RED | LED_BLUE | LED_GREEN);
 
-    GPIO_PORTF_AHB_DATA_BITS_R[LED_BLUE] = LED_BLUE;
+    /* turn all LEDs off */
+    GPIO_PORTF_AHB_DATA_BITS_R[LED_RED | LED_BLUE | LED_GREEN] = 0U;
+
+    int x = 1000000;
+    int y = 1000000/2;
     while (1) {
-        int x = 1000000;
-        int y = 1000000/2;
         int *p = swap(&x, &y);
 
         GPIO_PORTF_AHB_DATA_BITS_R[LED_RED] = LED_RED;

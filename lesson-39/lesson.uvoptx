@@ -119,17 +119,13 @@
       <TargetDriverDllRegistry>
         <SetRegEntry>
           <Number>0</Number>
-          <Key>DLGUARM</Key>
-        </SetRegEntry>
-        <SetRegEntry>
-          <Number>0</Number>
           <Key>ARMRTXEVENTFLAGS</Key>
           <Name>-L70 -Z18 -C0 -M0 -T1</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGTARM</Key>
-          <Name>(1010=1299,759,1749,1316,0)(1007=685,1050,872,1325,0)(1008=1224,174,1600,410,0)(1009=700,1066,958,1654,0)(1012=-1,-1,-1,-1,0)</Name>
+          <Name>(1010=1150,195,1600,752,0)(1007=-1,-1,-1,-1,0)(1008=1224,174,1600,410,0)(1009=-1,-1,-1,-1,0)(1012=-1,-1,-1,-1,0)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -153,7 +149,7 @@
           <Type>0</Type>
           <LineNumber>145</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>6648</Address>
+          <Address>6732</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -169,7 +165,7 @@
           <Type>0</Type>
           <LineNumber>147</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>6650</Address>
+          <Address>6734</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -183,7 +179,7 @@
         <Bp>
           <Number>2</Number>
           <Type>0</Type>
-          <LineNumber>48</LineNumber>
+          <LineNumber>75</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>1446</Address>
           <ByteObject>0</ByteObject>
@@ -194,7 +190,7 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>.\uc_ao.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\lesson\uc_ao.c\48</Expression>
+          <Expression>\\lesson\uc_ao.c\75</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>

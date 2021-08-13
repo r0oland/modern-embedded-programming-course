@@ -339,7 +339,7 @@
               <MiscControls>-Wconditional-uninitialized -Wsometimes-uninitialized</MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.;..\qpc\3rd_party\ucos-ii\Source;..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM;..\qpc\3rd_party\CMSIS\Include;..\qpc\3rd_party\ek-tm4c123gxl</IncludePath>
+              <IncludePath>.;..\qpc\include;..\qpc\src;..\qpc\ports\arm-cm\qv\armclang;..\qpc\3rd_party\CMSIS\Include;..\qpc\3rd_party\ek-tm4c123gxl</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -398,26 +398,6 @@
               <FileType>5</FileType>
               <FilePath>.\bsp.h</FilePath>
             </File>
-            <File>
-              <FileName>app_cfg.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\app_cfg.h</FilePath>
-            </File>
-            <File>
-              <FileName>os_cfg.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\os_cfg.h</FilePath>
-            </File>
-            <File>
-              <FileName>uc_ao.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\uc_ao.c</FilePath>
-            </File>
-            <File>
-              <FileName>uc_ao.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\uc_ao.h</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -441,82 +421,102 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>uCOS-II</GroupName>
+          <GroupName>QPC</GroupName>
           <Files>
             <File>
-              <FileName>os_core.c</FileName>
+              <FileName>qep_hsm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Source\os_core.c</FilePath>
+              <FilePath>..\qpc\src\qf\qep_hsm.c</FilePath>
             </File>
             <File>
-              <FileName>os_flag.c</FileName>
+              <FileName>qep_msm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Source\os_flag.c</FilePath>
+              <FilePath>..\qpc\src\qf\qep_msm.c</FilePath>
             </File>
             <File>
-              <FileName>os_mbox.c</FileName>
+              <FileName>qf_act.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Source\os_mbox.c</FilePath>
+              <FilePath>..\qpc\src\qf\qf_act.c</FilePath>
             </File>
             <File>
-              <FileName>os_mem.c</FileName>
+              <FileName>qf_actq.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Source\os_mem.c</FilePath>
+              <FilePath>..\qpc\src\qf\qf_actq.c</FilePath>
             </File>
             <File>
-              <FileName>os_mutex.c</FileName>
+              <FileName>qf_defer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Source\os_mutex.c</FilePath>
+              <FilePath>..\qpc\src\qf\qf_defer.c</FilePath>
             </File>
             <File>
-              <FileName>os_q.c</FileName>
+              <FileName>qf_dyn.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Source\os_q.c</FilePath>
+              <FilePath>..\qpc\src\qf\qf_dyn.c</FilePath>
             </File>
             <File>
-              <FileName>os_sem.c</FileName>
+              <FileName>qf_mem.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Source\os_sem.c</FilePath>
+              <FilePath>..\qpc\src\qf\qf_mem.c</FilePath>
             </File>
             <File>
-              <FileName>os_task.c</FileName>
+              <FileName>qf_ps.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Source\os_task.c</FilePath>
+              <FilePath>..\qpc\src\qf\qf_ps.c</FilePath>
             </File>
             <File>
-              <FileName>os_time.c</FileName>
+              <FileName>qf_qact.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Source\os_time.c</FilePath>
+              <FilePath>..\qpc\src\qf\qf_qact.c</FilePath>
             </File>
             <File>
-              <FileName>os_tmr.c</FileName>
+              <FileName>qf_qeq.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Source\os_tmr.c</FilePath>
+              <FilePath>..\qpc\src\qf\qf_qeq.c</FilePath>
+            </File>
+            <File>
+              <FileName>qf_qmact.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\qpc\src\qf\qf_qmact.c</FilePath>
+            </File>
+            <File>
+              <FileName>qf_time.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\qpc\src\qf\qf_time.c</FilePath>
+            </File>
+            <File>
+              <FileName>qv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\qpc\src\qv\qv.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>uCOS-II_port</GroupName>
+          <GroupName>QPC_port</GroupName>
           <Files>
             <File>
-              <FileName>os_cpu.h</FileName>
+              <FileName>qep_port.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h</FilePath>
+              <FilePath>..\qpc\ports\arm-cm\qv\armclang\qep_port.h</FilePath>
             </File>
             <File>
-              <FileName>os_cpu_a.asm</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu_a.asm</FilePath>
+              <FileName>qf_port.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\qpc\ports\arm-cm\qv\armclang\qf_port.h</FilePath>
             </File>
             <File>
-              <FileName>os_dbg.c</FileName>
+              <FileName>qs_port.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\qpc\ports\arm-cm\qv\armclang\qs_port.h</FilePath>
+            </File>
+            <File>
+              <FileName>qv_port.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_dbg.c</FilePath>
+              <FilePath>..\qpc\ports\arm-cm\qv\armclang\qv_port.c</FilePath>
             </File>
             <File>
-              <FileName>os_cpu_c.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\qpc\3rd_party\ucos-ii\Ports\ARM-Cortex-M\ARMv7-M\os_cpu_c.c</FilePath>
+              <FileName>qv_port.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\qpc\ports\arm-cm\qv\armclang\qv_port.h</FilePath>
             </File>
           </Files>
         </Group>

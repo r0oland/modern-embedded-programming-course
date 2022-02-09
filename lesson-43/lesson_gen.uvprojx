@@ -49,7 +49,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\dbg\</OutputDirectory>
-          <OutputName>lesson</OutputName>
+          <OutputName>lesson_gen</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -389,14 +389,9 @@
               <FilePath>.\bsp.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
+              <FileName>main_gen.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\bsp.h</FilePath>
+              <FilePath>.\main_gen.c</FilePath>
             </File>
           </Files>
         </Group>

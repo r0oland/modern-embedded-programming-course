@@ -49,7 +49,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\dbg\</OutputDirectory>
-          <OutputName>lesson_gen</OutputName>
+          <OutputName>lesson_qm</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -389,9 +389,9 @@
               <FilePath>.\bsp.c</FilePath>
             </File>
             <File>
-              <FileName>main_gen.c</FileName>
+              <FileName>main_qm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\main_gen.c</FilePath>
+              <FilePath>.\main_qm.c</FilePath>
             </File>
           </Files>
         </Group>

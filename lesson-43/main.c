@@ -12,8 +12,8 @@ typedef struct {
 
 void Blinky1_ctor(Blinky1 * const me);
 
-QState Blinky1_initial(Blinky1 * const me, void const * const par);
-QState Blinky1_active(Blinky1 * const me, QEvt const * const e);
+static QState Blinky1_initial(Blinky1 * const me, void const * const par);
+static QState Blinky1_active(Blinky1 * const me, QEvt const * const e);
 
 /* Blinky1 constructor */
 void Blinky1_ctor(Blinky1 * const me) {
@@ -54,8 +54,8 @@ typedef struct {
 
 void Blinky2_ctor(Blinky2 * const me);
 
-QState Blinky2_initial(Blinky2 * const me, void const * const par);
-QState Blinky2_active(Blinky2 * const me, QEvt const * const e);
+static QState Blinky2_initial(Blinky2 * const me, void const * const par);
+static QState Blinky2_active(Blinky2 * const me, QEvt const * const e);
 
 /* Blinky2 constructor */
 void Blinky2_ctor(Blinky2 * const me) {

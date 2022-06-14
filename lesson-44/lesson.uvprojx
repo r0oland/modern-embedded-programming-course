@@ -133,7 +133,7 @@
             <UseExternalTool>0</UseExternalTool>
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
-            <Capability>0</Capability>
+            <Capability>1</Capability>
             <DriverSelection>4097</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.;..\qpc\include;..\qpc\src;..\qpc\ports\arm-cm\qxk\arm;..\qpc\3rd_party\CMSIS\Include;..\qpc\3rd_party\ek-tm4c123gxl</IncludePath>
+              <IncludePath>.;..\qpc\include;..\qpc\src;..\qpc\ports\arm-cm\qxk\armclang;..\qpc\3rd_party\CMSIS\Include;..\qpc\3rd_party\ek-tm4c123gxl</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -506,7 +506,7 @@
             <File>
               <FileName>qxk_port.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\qpc\ports\arm-cm\qxk\arm\qxk_port.c</FilePath>
+              <FilePath>..\qpc\ports\arm-cm\qxk\armclang\qxk_port.c</FilePath>
             </File>
           </Files>
         </Group>

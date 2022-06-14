@@ -20,10 +20,24 @@ This deeper understanding will allow you to use the C language more efficiently 
 The course has been going from January 2013, but it is never too late to join. Stay tuned...
 
 
+# Updates
+All projects for ARM/KEIL uVision have been updated from the obsolete Compiler-5 to the newer Compiler-6.
+
+
 # Comments/Discussion
 If you'd like to discuss this course or related subjects, plese use the ["Issues" tab](https://github.com/QuantumLeaps/modern-embedded-course/issues).
 
 
-# Contact Information
+# Course Resources
+Numerous resources for the video course are available through the companion webpage at:
+
 [www.state-machine.com/video-course](https://www.state-machine.com/video-course)
+
+Among others, you can find there:
+- information about the hardware (board, logic analyzer, etc.)
+- [Troubleshooting TivaC LaunchPad](https://www.state-machine.com/course/AN_Troubleshooting_TivaC.pdf)
+- [Tiva TM4C123GH6PM Data Sheet](https://www.state-machine.com/course/TM4C123GH6PM_Datasheet.pdf)
+- [USB Drivers for TivaC](https://www.state-machine.com/course/MDK_Stellaris_ICDI_AddOn.exe)
+- [Flash Programmer for TivaC](https://www.ti.com/tool/LMFLASHPROGRAMMER)
+- and more
 

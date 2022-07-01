@@ -1,10 +1,9 @@
-[![Modern Embedded Programming Course](img/thumbnail.jpg)](https://www.youtube.com/playlist?list=PLPW8O6W-1chwyTzI3BHwBLbGQoPFxPAPM)
-
-
 ## Brought to you by:
-[![Quantum Leaps](https://www.state-machine.com/attachments/logo_ql_400.png)](https://www.state-machine.co)
+[![Quantum Leaps](https://www.state-machine.com/attachments/logo_ql_400.png)](https://www.state-machine.com)
 
 ---------------------------------------------------------------------
+[![Modern Embedded Programming Course](img/thumbnail.jpg)](https://www.youtube.com/playlist?list=PLPW8O6W-1chwyTzI3BHwBLbGQoPFxPAPM)
+
 # What is it?
 This repository is a companion to the ["Modern Embedded Systems Programming" video course](https://www.youtube.com/playlist?list=PLPW8O6W-1chwyTzI3BHwBLbGQoPFxPAPM),
 which consists of focused, fast-paced, hands-on lessons that teach you how to program embedded microcontrollers in C. The course begins with the fundamentals, but gradually covers increasingly advanced concepts all the way to the contemporary modern embedded programming practice.

@@ -33,7 +33,7 @@ void Blinky1_ctor(Blinky1 * const me) {
 }
 
 /* Blinky1 initial pseudostate */
-static QState Blinky1_initial(Blinky1 * const me, void const * const par) {
+QState Blinky1_initial(Blinky1 * const me, void const * const par) {
     QTimeEvt_armX(&me->te, 2U, 2U);
     me->iter = 1500U;
     return Q_TRAN(&Blinky1_active);
@@ -85,7 +85,7 @@ void Blinky2_ctor(Blinky2 * const me) {
 }
 
 /* Blinky2 initial pseudostate */
-static QState Blinky2_initial(Blinky2 * const me, void const * const par) {
+QState Blinky2_initial(Blinky2 * const me, void const * const par) {
     me->seq = 0U;
     return Q_TRAN(&Blinky2_active);
 }

@@ -40,3 +40,10 @@ Among others, you can find there:
 - [Flash Programmer for TivaC](https://www.ti.com/tool/LMFLASHPROGRAMMER)
 - and more
 
+
+# How to Help this Project?
+If you like this project, please give it a star (in the upper-right corner of your browser window):
+
+![GitHub star](img/github-star.jpg)
+
+

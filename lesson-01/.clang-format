@@ -1,0 +1,29 @@
+﻿---
+BasedOnStyle: LLVM
+AlignAfterOpenBracket: Align
+AlignConsecutiveMacros: 'true'
+AlignConsecutiveAssignments: 'true'
+AlignOperands: 'false'
+AllowAllArgumentsOnNextLine: 'true'
+AllowShortBlocksOnASingleLine: 'true'
+DerivePointerAlignment: 'false'
+
+SortIncludes: 'false'
+
+ColumnLimit: '83'
+IndentWidth: '2'
+UseTab: Never
+
+PointerAlignment: Left
+SpaceAfterCStyleCast: 'false'
+SpaceAfterLogicalNot: 'false'
+SpaceBeforeAssignmentOperators: 'true'
+SpaceBeforeCpp11BracedList: 'true'
+SpaceBeforeParens: ControlStatements
+SpacesInCStyleCastParentheses: 'false'
+IndentPPDirectives: BeforeHash
+
+AlignTrailingComments: 'true'
+ReflowComments: 'true'
+SpacesBeforeTrailingComments: 1
+...
